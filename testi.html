@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+
+<head>
+    <title></title>
+</head>
+<body>
+
+<style>
+  .testimonial{
+    text-align: center;
+    padding: 85px 50px 45px 70px;
+    margin: 70px 15px 35px;
+    background: #f9f9f9;
+    box-shadow: 8px 4px 0 0 #9c27b0;
+    position: relative;
+}
+.testimonial .pic{
+    width: 120px;
+    height: 120px;
+    border: 5px solid #9c27b0;
+    margin: 0 auto;
+    position: absolute;
+    top: -60px;
+    left: 0;
+    right: 0;
+}
+.testimonial .pic img{
+    width: 100%;
+    height: auto;
+}
+.testimonial .description{
+    font-size: 15px;
+    color: #757575;
+    line-height: 27px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.testimonial .description:before{
+    content: "\f10d";
+    font-family: "FontAwesome";
+    font-size: 32px;
+    color: #9c27b0;
+    position: absolute;
+    top: -15px;
+    left: -35px;
+}
+.testimonial .testimonial-profile{
+    position: relative;
+    margin: 20px 0 10px 0;
+}
+.testimonial .testimonial-profile:after{
+    content: "";
+    width: 50px;
+    height: 2px;
+    background: #9c27b0;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 50%;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+}
+.testimonial .title{
+    display: inline-block;
+    font-size: 18px;
+    color: #4a5184;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.testimonial .post{
+    display: inline-block;
+    font-size: 15px;
+    color: #757575;
+    text-transform: capitalize;
+}
+.owl-theme .owl-controls{
+    margin-top: 10px;
+}
+.owl-theme .owl-controls .owl-page span{
+    background: #5e5f5f;
+    opacity: 1;
+    transition: all 0.4s ease 0s;
+}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+    background: #9c27b0;
+}
+.owl-theme .owl-controls .owl-page.active span{
+    width: 22px;
+    height: 12px;
+}
+</style>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div id="testimonial-slider" class="owl-carousel">
+                <div class="testimonial">
+                    <div class="pic">
+                        <img src="anil.jpg">
+                    </div>
+                    <p class="description">
+                        In his inaugural address, Dr. Sahasrabuddhe lauded the initiative and spoke about the need to spread the digital system in all walks of life.  He said AICTE has started online workshops on various issues at this critical moment.  Even online examination and inspection of documents of various educational institutions is being considered online in the near future.  According to him, in that case, having video recordings will not lead to allegations of corruption.
+                    </p>
+                    <div class="testimonial-profile">
+                        <h3 class="title">Anil Sahasrabudhe</h3>
+                        <span class="post">Chairman of AICTE</span>
+                    </div>
+                </div>
+ 
+                <div class="testimonial">
+                    <div class="pic">
+                        <img src="satyu.jpeg">
+                    </div>
+                    <p class="description">
+                        all my beloved students and all the CodeTigers present here. And actually if this is really a wonderful achievement for our students that in this Situation they have a did this thing and I congratulate and convey my sincere. Thanks, and I convey my blessings to all the students the all go Tigers of our growth and I definitely this will be a great success in future
+                    </p>
+                    <div class="testimonial-profile">
+                        <h3 class="title">Satyam Roy Chowdhury</h3>
+                        <span class="post">M.D ,Techno India Group </span>
+                    </div>
+                </div>
+ 
+                <div class="testimonial">
+                    <div class="pic">
+                        <img src="suranjan.jpg">
+                    </div>
+                    <p class="description">
+                      mobilize their own power to develop new things to innovate new things.
+
+For example each other for University students are producing economic early prototype reproduce masks economy cops. They are trying to develop his ventilators at a low cost. They're even have developed a model<br>
+<br>
+<br>
+<br>
+
+
+
+                    </p>
+                    <div class="testimonial-profile">
+                        <h3 class="title">Suranjan Das</h3>
+                        <span class="post">Vice Chancellor of Jadavpur University</span>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+ 
+<script>
+$(document).ready(function(){
+    $("#testimonial-slider").owlCarousel({
+        items:2,
+        itemsDesktop:[1000,2],
+        itemsDesktopSmall:[979,2],
+        itemsTablet:[768,2],
+        itemsMobile:[650,1],
+        pagination:true,
+        navigation:false,
+        slideSpeed:1000,
+        autoPlay:true
+    });
+});
+</script>
+</body>
+</html>

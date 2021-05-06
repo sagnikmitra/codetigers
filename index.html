@@ -1,0 +1,1263 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="theme-color" content="#ffffff"/>
+    <meta property="og:title" content="DECOV 2020 by CODETIGERS" />
+    <meta property="og:image" itemprop="image" content="img.jpeg">
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="WE CAN FIGHT AGAINST COVID-19" />
+    <meta property="og:description" content="One of the Biggest Hackathon in India on Covid-19 pandemic" />
+    <meta property="og:url" content="https://www.codetigers.org" />
+    <meta property="og:image" content="img.jpeg"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="favicon.jpeg">
+    <link rel="icon" href="favicon.jpeg">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+    <title>
+        Decov 2020 | Hackathon
+    </title>
+    <!--     Fonts and icons     -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/css/material-kit.css?v=2.0.2">
+    <!-- Documentation extras -->
+    <link href="assets/assets-custom/demo.css" rel="stylesheet" />
+    <link href="assets/assets-custom/css/image-grid.css" rel="stylesheet" />
+    <link href="assets/assets-custom/css/footer.css" rel="stylesheet" />
+    <link href="assets/assets-custom/css/termynal.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2.0/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+@media (min-device-width:600px) {
+    img[data-src-600px] {
+        content: attr(data-src-600px, url);
+    }
+}
+
+@media (min-device-width:800px) {
+    img[data-src-800px] {
+        content: attr(data-src-800px, url);
+    }
+}
+        body{
+            overflow-x: hidden;
+        }
+
+        .card-profile {
+          max-width: 320px;
+          margin: 20px auto;
+          background-color: #fdfbf2;
+          border-radius: 5px;
+          border: 0;
+          box-shadow: 0.3em 0.3em 0.6em rgba(0, 0, 0, 0.2);
+          transition:0.4s ease;
+        }
+
+        .card-profile:hover
+        {
+            box-shadow: 0.6em 0.6em 1em rgba(0, 0, 0, 0.2);
+        }
+        .card-profile .card-img-top {
+          border-radius: 5px 5px 0 0;
+        }
+        .card-profile .card-img-profile {
+          max-width: 100%;
+          border-radius: 50%;
+          margin-top: -95px;
+          margin-bottom: 35px;
+          
+        }
+        .card-profile .card-title {
+          margin-bottom: 50px;
+        }
+        .card-profile .card-title small {
+          display: block;
+          font-size: .6em;
+          margin-top: .2em;
+        }
+        .card-profile .card-links {
+          margin-bottom: 25px;
+        }
+        .card-profile .card-links .fa {
+          margin: 0 1em;
+          font-size: 1.6em;
+        }
+        .card-profile .card-links .fa:focus, .card-profile .card-links .fa:hover {
+          text-decoration: none;
+        }
+        .card-profile .card-links .fa.fa-twitter {
+          color: #68aade;
+        }
+        .card-profile .card-links .fa.fa-twitter:hover {
+          color: #3e92d5;
+        }
+        .card-profile .card-links .fa.fa-facebook {
+          color: #3b5999;
+        }
+        .card-profile .card-links .fa.fa-facebook:hover {
+          color: #2d4474;
+        }
+
+        #top-button
+        {
+            font-size:20px;
+            transition: 0.3s ease;
+        }
+        #top-button:hover{
+            color:white;
+            background:rgb(0,101,202);
+        }
+        .tab { margin-left: 40px; }
+/*
+        .grid-item { width: 25%; }
+        .grid-item--width2 { width: 50%; }*/
+
+        </style>
+    <!-- image responsiveness -->
+    <style>
+.responsive {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+</style>
+    
+</head>
+<style>
+    .pos{
+        position:relative;  top:10px;
+
+    }
+</style>
+
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+<body class="landing-page" name="top" id="top" class="w3-container" oncontextmenu="return false" onkeydown="return false;" onmousedown="return false;">
+    <nav class="navbar navbar-color-on-scroll navbar-transparent fixed-top  navbar-expand-lg " color-on-scroll="100" id="sectionsNav" style="background-color: grey;" >
+        <div class="container">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="navbar-translate" style="padding-top: -10px;">
+                <a href="index"><img src="titlelogo.png" height="30" width="180" style="padding-top: -10px;"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" style="padding-bottom: 10px;">
+                <ul class="navbar-nav ml-auto pos" style="padding-bottom: 10px; padding-right: 10px;">
+                    <li class="dropdown nav-item">
+                        <a href="#home" data-page="index" class="nav-link">
+                            <span><b>&nbsp;&nbsp;&nbsp;Home</b></span>
+                        </a>
+                    </li>
+                    <!--<li class="nav-item">
+                        <a href="#ps" data-page="speakers" class="nav-link">
+                            <span><b id="header_text">Problem Statements</b></span>
+                        </a>
+                    </li>-->
+                    <li class="nav-item">
+                        <a href="https://codetigers.netlify.app" data-page="team" class="nav-link">
+                            <span><b id="header_text">Blog</b></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="forum.codetigers.org/index.php" data-page="team" class="nav-link">
+                            <span><b id="header_text">Forum</b></span>
+                        </a>
+                    </li>
+                     <li class="nav-item">
+                        <a href="profile" data-page="team" class="nav-link">
+                            <span><b id="header_text">Profile</b></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#footer" data-page="schedule" class="nav-link">
+                            <span><b id="header_text"  style="padding-right: 25px;">Contact Us</b></span>
+        
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <style>
+        .clr{
+            background-color: grey;
+        }
+
+    </style>
+
+    <div id="home" class="page-header header-filter" data-parallax="true">
+        <div class="container" style="width: 100vw; padding: 0; margin: 0; max-width: 100vw;">
+            <div class="row" style="height: 100vh;"><br>
+                <div class="col-md-4" id="hometop-container"><br>
+                </div>
+                <div class="col-md-4">&nbsp;&nbsp;&nbsp;</div><br><br>
+                <div class="col-md-4" id="hometop-container"><br><br>
+                    <h1 class="event_title">DECOV 2020</h1>
+                    <p>Organized by</p>
+                    <img src="title.png" style="height: 7%; width:90%; padding-bottom: 15px;">
+                   <!-- <img src="reg_close.png" style="width:50%"><br>-->
+                   <h3>FINAL ANNOUNCEMENT OF WINNERS 15TH ,JULY 2020</h3>
+                    
+                    <h4 class="event_details" style="color: red;"></h4>&nbsp;&nbsp;
+                     
+                                     
+                    <div class="col-md-4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br><br></div>
+                    <p>&nbsp;</p>
+                    <br />
+                </div>
+                <div class="col-md-8 psup" style=" background-image: url('bgp.png'); background-position: bottom; background-size: 55% auto; background-repeat: no-repeat; position:relative; padding-right: 2" class="responsive" width="600" height="400">&nbsp;&nbsp;</div>
+            
+            </div>
+            
+        </div>
+    </div>
+    <style>
+        .clr{
+            background-color: grey;
+        }
+    </style>
+                        <style>
+                    table {
+                      font-family: arial, sans-serif;
+                      border-collapse: collapse;
+                      width: 100%;
+                    }
+
+                    td, th {
+                      border: 1px solid #dddddd;
+                      text-align: left;
+                      padding: 8px;
+                    }
+
+                    tr:nth-child(even) {
+                      background-color: #dddddd;
+                    }
+                    </style>
+    <div class="main main-raised" style="margin-top: 0;">
+        <div class="container">
+            <div class="section text-center">
+                <div class="row">
+                    <div class="col-md-8 ml-auto mr-auto">
+                        <style>
+                        .alert {
+                          padding: 20px;
+                          background-color: #f44336;
+                          color: white;
+                          opacity: 1;
+                          transition: opacity 0.6s;
+                          margin-bottom: 15px;
+                        }
+                        
+                        .alert.success {background-color: #4CAF50;}
+                        .alert.info {background-color: #2196F3;}
+                        .alert.warning {background-color: #ff9800;}
+                        
+                        .closebtn {
+                          margin-left: 15px;
+                          color: white;
+                          font-weight: bold;
+                          float: right;
+                          font-size: 22px;
+                          line-height: 20px;
+                          cursor: pointer;
+                          transition: 0.3s;
+                        }
+                        
+                        .closebtn:hover {
+                          color: black;
+                        }
+                        </style>
+
+                        <h2>Latest News</h2>
+                        
+                        
+                        <div class="alert success">
+                          <span class="closebtn">&times;</span>  
+                          <strong>Welcome</strong> Stay Tuned! 15th july 2020 will be the day,we will announce our winners of Decov-2020
+                        </div>
+                        
+                        <script>
+                        var close = document.getElementsByClassName("closebtn");
+                        var i;
+                        
+                        for (i = 0; i < close.length; i++) {
+                          close[i].onclick = function(){
+                            var div = this.parentElement;
+                            div.style.opacity = "0";
+                            setTimeout(function(){ div.style.display = "none"; }, 600);
+                          }
+                        }
+                        </script>
+
+                        <h2 class="title" id="about">&nbsp;&nbsp;About Code Tigers</h2>
+
+                        <h5 class="description">Code Tigers has been established by the students of various colleges and Universities of Techno India Group 
+                                                    with the mission to provide a platform for people who are determined to make a difference in the society with 
+                                                    the help of their technical skills. Code Tigers gives opportunities to the developers by organizing hackathons, 
+                                                    coding competitions and various technical events. Code Tigers aim to create platform where Coders from school, 
+                                                    colleges, universities and industries can join hands in solving challenging problems for the society.</h5><br>
+                        <br>
+                        <img src="bggif.gif" alt="GIF" class="responsive" width="600" height="450">    
+                    </div>
+                </div>
+                
+                    <!--/.First column-->
+                    <!--Second column-->
+                    
+                    <!--/.Second column-->
+                </div>
+                <!--/.First row-->
+                <div class="row mt-5 wow fadeIn" data-wow-delay="0.2s" style="text-align:left;">
+                    <!--First column-->
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.2s">
+                        <!--Card-->
+                        <iframe width="400" height="225"  src="https://www.youtube.com/embed/vSQ3XcsYtHg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+                        <!--video width="400" controls autoplay>
+                          <source src="bg.mp4" type="video/mp4"> 
+                        </video>
+                        
+                        <!--/.Card-->
+                    </div>
+                    <!--/.First column-->
+                    <!--Second column-->
+                    <div class="col-lg-6">
+                        <!--Card-->
+                        <h2 class="title" id="internship_fair"><b>What is DECOV 2020 ?</b></h2>
+                        <h5 class="event_title">Code Tigers presents DECOV which is the National level developing hackathon. 
+                            DECOV aims to solve the problems faced by the people due to the COVID-19 crisis. 
+                            With the help of developers, DECOV aims at making a positive sustainable impact on the lives of 
+                            common people from various professions and works of life who are struggling in this pandemic.</h5>
+                    </div>
+                    <!--/.Second column-->
+                </div>
+                <!--/.First row-->
+                 <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                <center><h2 class="title"><b>DOMAINS</b></h2></center>
+                <p>&nbsp;</p>
+
+                <!--- Slide Show Start --->
+                <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  <img src="1.JPG" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                  
+                  <img src="2.jpg" style="width:100%">
+
+                </div>
+
+                <div class="mySlides fade">
+                  
+                  <img src="3.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                  
+                  <img src="4.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                  
+                  <img src="5.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                  
+                  <img src="6.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                 
+                  <img src="7.jpg" style="width:100%">
+                </div>
+
+                </div>
+                <br>
+<style>
+    .dot-color{
+        color: white;
+        background-color: white;
+    }
+</style>
+                <div style="text-align:center">
+                  <span class="dot dot-color"></span> 
+                  <span class="dot"></span> 
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                </div>
+
+                <!--- END ---------------------->
+
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                <a href="#section2"><center><h2 class="title"  id="ps"><b>PROBLEM STATEMENT</b></h2></center></a>
+                <center><h4>Participants can propose and solve any real-life challenging problems from the 6 Domains. <br>However, we are suggesting a few problems that one might consider as examples.</h4></center>
+                <div class="row mt-5 wow fadeIn" data-wow-delay="8s">
+                    <div class="col-lg-6" style="text-align:left;">
+                    </div>
+                    </head>
+
+<body>
+<div class="container-fluid body-content">
+<div id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="card">
+    <div class="card-header" role="tab" id="headingOne">
+      <h5 class="mb-0">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+         <center><h4 style="font-weight: bold;">HEALTH CARE</h4></center> 
+        </a>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+      <div class="card-block">
+      <table>
+                      <tr>
+                        <th><center>Problem Code</center></th>
+                        <th><center>Problem Statement</center></th>
+                      </tr>
+                      
+                      <tr>
+                        <td><center>CTH101</center></td>
+                        <td><center>PREDICT NEAREST COVID-19 HOTSPOT AREA.</center></td>
+                      </tr>
+                      
+                      <tr>
+                        <td><center>CTH102</center></td>
+                        <td><center>BUILD A MULTILINGUAL PROGRESSIVE APPLICATION TO HELP WITH PRECAUTIONARY MEASURES AND SYMPTOMS DETECTION.</center></td>
+                      </tr>
+                      
+                      <tr>
+                        <td><center>CTH103</center></td>
+                        <td><center>VIRTUAL CONSULTANCY APPLICATION TO CONNECT WITH THE DOCTORS LINKED WITH THE NEAREST PHARMACY STORE FOR MEDICINE SUPPLY.
+                                   </center></td>
+                      </tr>
+                     <tr>
+                        <td><center>CTH104</center></td>
+                        <td><center> TRACK PHARMACEUTICAL BILLING AND INFORM THE AUTHORITY ABOUT POSSIBLE EMERGENCIES.
+                                   </center></td>
+                      </tr>
+                      <tr>
+                        <td><center>CTH105</center></td>
+                        <td><center>DESIGN HEALTH & HYGIENE CHART ACCORDING TO THE WHO GUIDELINES.</center></td>
+                      </tr>
+
+                 </table>
+                 
+              </div>
+            </div>
+          </div>
+      <div class="card">
+        <div class="card-header" role="tab" id="headingTwo">
+          <h5 class="mb-0">
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+             <center><h4 style="font-weight:bold;">BUSINESS & FINANCE</h4></center></a>
+          </h5>
+        </div>
+    <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="card-block"><p style="color:black">
+                <table>
+                      <tr>
+                        <th><center>Problem Code</center></th>
+                        <th><center>Problem Statement</center></th>
+                      </tr>
+                      
+                      <tr>
+                        <td><center>CTF101</center></td>
+                        <td><center>PREDICTING STOCK MARKET VOLATILITY.</center></td>
+                      </tr>
+                      
+                      <tr>
+                        <td><center>CTF102</center></td>
+                        <td><center>COMPREHENSIVE ALERT MODULE FOR COMPANIES TO DETECT ANY SORT OF CREDIT RISK.</center></td>
+                      </tr>
+                      
+                      <tr>
+                        <td><center>CTF103</center></td>
+                        <td><center>AN ANALYTICS-DRIVEN SOLUTION TO IDENTIFY LIGHTLY SURGE IN THE DEMAND FOR CERTAIN PRODUCTS AND SERVICES.</center></td>
+                      </tr>
+                      
+                      <tr>
+                        <td><center>CTF104</center></td>
+                        <td><center>IN THE CASE OF INVESTMENT IN A NEW PROJECT, HOW CAN A PROPER TRADE-OFF BE ACHIEVED BETWEEN RISK AND RETURN.</center></td>
+                      </tr>
+                 </table>
+              </div> </p>
+            </div>
+          </div>
+  <div class="card">
+    <div class="card-header" role="tab" id="headingThree">
+      <h5 class="mb-0">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        <center><h4 style="font-weight: bold;">VULNERABLE POPULATION</h4></center>
+        </a>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+      <div class="card-block">
+
+                <table>
+                      <tr>
+                        <th><center>Problem Code</center></th>
+                        <th><center>Problem Statement</center></th>
+                      </tr>
+                      
+                      <tr>
+                        <td><center>CTVP101</center></td>
+                        <td><center>BUILD SOLUTIONS TO ADDRESS THE PROBLEMS FACED BY MOST VULNERABLE SOCIO-ECONOMIC GROUPS (E.G. INFANTS & AGED POPULATION, ECONOMICALLY BACKWARD POPULATION, HEALTH WORKERS, MIGRANT LABOURS). </center></td>
+                      </tr>
+                      
+                      <tr>
+                        <td><center>CTVP102</center></td>
+                        <td><center>MANAGE THE SMOOTH FLOW OF ESSENTIAL SUPPLY FOR QUARANTINED POPULATION.</center></td>
+                      </tr>
+                      
+                      <tr>
+                        <td><center>CTVP103</center></td>
+                        <td><center>BUILD AN APP THAT WILL PLAN A DYNAMIC DIET CHART FOR PEOPLE WITH HIGHER RISK.</center></td>
+                      </tr>
+                      
+                       <tr>
+                        <td><center>CTVP104</center></td>
+                        <td><center>BUILD AN APP TO INCREASE IMMUNITY FOR THE VULNERABLE POPULATION ( INFANTS & ELDERLY PERSONS) THROUGH PERSONALIZED DIET PLANNING BASED ON MEDICAL CONDITION</center></td>
+                      </tr>
+
+                </table>
+      </div>
+    </div>
+  </div>
+
+ <div class="card">
+    <div class="card-header" role="tab" id="headingFour">
+      <h5 class="mb-0">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+        <center><h4 style="font-weight: bold;">COLLABORATION & COMMUNICATION</h4></center>
+        </a>
+      </h5>
+    </div>
+    <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
+      <div class="card-block">
+                <table>
+                      <tr>
+                        <th><center>Problem Code</center></th>
+                        <th><center>Problem Statement</center></th>
+                      </tr>
+                      
+                      <tr>
+                        <td><center>CTCC101</center></td>
+                        <td><center>A SOLUTION TO FACILITATE SEAMLESS COLLABORATION AMONG THE RESEARCHERS TO ACCELERATE THE DEVELOPMENT VACCINE/CURE FOR COVID 19.</center></td>
+                      </tr>
+                      
+                      <tr>
+                        <td><center>CTCC102</center></td>
+                        <td><center>PROMOTING CONNECTION TO FRIENDS, FAMILY MEMBERS, AND NEIGHBOURS TO COMBAT SOCIAL ISOLATION.</center></td>
+                      </tr>
+                      
+                      <tr>
+                        <td><center>CTCC103</center></td>
+                        <td><center>BUILD AN APP FOR DIGITIZING PUBLIC SERVICES FOR LOCAL GOVERNMENTS.</center></td>
+                      </tr>
+                </table>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab" id="headingFive">
+      <h5 class="mb-0">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+        <center><h4 style="font-weight: bold;">DIGITAL EDUCATION </h4></center>
+        </a>
+      </h5>
+    </div>
+    <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive">
+      <div class="card-block">
+                <table>
+                      <tr>
+                        <th><center>Problem Code</center></th>
+                        <th><center>Problem Statement</center></th>
+                      </tr>
+                      
+                      <tr>
+                        <td><center>CTDE101</center></td>
+                        <td><center>SOLUTION(S) TO ENSURE THAT ONLINE LEARNING IS AS EFFECTIVE AS ON-PREMISE LEARNING.</center></td>
+                      </tr>
+                </table>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab" id="headingSix">
+      <h5 class="mb-0">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+        <center><h4 style="font-weight: bold;">WORK FROM HOME</h4></center>
+        </a>
+      </h5>
+    </div>
+    <div id="collapseSix" class="collapse" role="tabpanel" aria-labelledby="headingSix">
+      <div class="card-block">
+                <table>
+                      <tr>
+                        <th><center>Problem Code</center></th>
+                        <th><center>Problem Statement</center></th>
+                      </tr>
+                      
+                      <tr>
+                        <td><center>CTWFH101</center></td>
+                        <td><center>EFFECTIVE AND EFFICIENT WORK FROM HOME (WFH) SOLUTION(S) FOR DIFFERENT INDUSTRY SEGMENTS.</center></td>
+                      </tr>
+                </table>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+<style>
+    h5,h3{
+        text-align: justify;
+        text-justify: inter-word;
+    }
+</style>
+<script src=//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js></script>
+<script src=//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.5/js/bootstrap.min.js></script>
+
+                <p>&nbsp;</p>
+                <div class="row mt-5 wow fadeIn" data-wow-delay="0.2s" id="rules">
+                    <!--First column-->
+                    <div class="col-lg-6" style="text-align:left;">
+                        <h2 class="title" id="ps"><b>Rules & Regulations</b></h2>
+                        <!--Card-->
+                        <ul>
+                            <li><h5  align=”justify” class="description" id="campus_ambassador">There can be a maximum of 5 members in a Team. </h5></li>
+                            <li><h5  align=”justify” class="description" id="campus_ambassador">A Team will be recognised by the name it selects for itself and with which it registers in the Online Portal of Code Tigers.</h5></li>
+                            <li><h5  align=”justify” class="description" id="campus_ambassador">Problem Statements will be available on the Website as well as the Android Application - DECOV (Available at Google Play Store).</h5></li>
+                            <li><h5  align=”justify” class="description" id="campus_ambassador">Teams should describe their work in a video that may be shared publicly in youtube and the link has to be shared in the Participant's Login profile page on Code Tigers portal.</h5></li>
+                            <li><h5  align=”justify” class="description" id="campus_ambassador">The Mobile / Web Application should be explained in the above mentioned video.</h5></li>
+                            <li><h5  align=”justify” class="description" id="campus_ambassador">Applicants are invited from students of High Schools, Colleges & Universities.
+                                A team can select or propose a maximum of 3 Problem statements from three different domains.</h5></li>
+                            </ul>
+                            </h5></li>
+
+                        </ul>
+                    </div>
+                    <!--/.First column-->
+                    <!--Second column-->
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.2s">
+                        <!--Card-->
+                        <img class="img-fluid" src="rules.png" width="95%" height="95%" />
+                        <!--/.Card-->
+                    </div>
+                    <!--/.Second column-->
+                </div>
+
+                <div class="image-grid">  
+                    <div class="row">
+                    <div class="container-fluid body-content">
+                    <center><h2 class="title"><b>Rounds</b></h2></center>
+                    <p>&nbsp;</p>
+
+                    <div id="accordion" role="tablist" aria-multiselectable="true">
+                      <div class="card">
+                        <div class="card-header" role="tab" id="headingEight">
+                          <h5 class="mb-0">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
+                              <center><h4 style="font-weight: bold;">Round One (10th May to 31st May)</h4></center>
+                    
+                            </a>
+                          </h5>
+                        </div>
+
+                        <div id="collapseEight" class="collapse" role="tabpanel" aria-labelledby="headingEight">
+                          <div class="card-block">
+                              <h4>&nbsp;&nbsp;&nbsp;Register for DECOV 2020 at <a href="https://codetigers.org/">https://codetigers.org/</a></h4>
+                          
+                           </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header" role="tab" id="headingNine">
+                          <h5 class="mb-0">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                       <center><h4 style="font-weight: bold;">Round Two (1st June to 10th June)</h4></center>
+                    
+                            </a>
+                          </h5>
+                        </div>
+                        <div id="collapseNine" class="collapse" role="tabpanel" aria-labelledby="headingNine">
+                          <div class="card-block">
+                                                    <ul>
+                                                        <li><h4>Select / Propose Problem Statements / Ideas.</h4></li>
+                                                        <li><h4>There can be a maximum of 5 members in a Team.</h4></li>
+                                                        <li><h4>A Team will be recognised by the name it selects for itself and with which it registers in the Online Portal of Code Tigers.</h4></li>
+                                                        <li><h4>Teams should describe their work in a video that may be shared publicly in Youtube.</h4></li>
+                                                        <li><h4>The Mobile / Web Application should be explained in the above mentioned video.</h4></li>
+                                                        <li><h4>Present your Powerpoint by making a video made out of it. Also, prepare a vocal explanation. Upload it on <a href="https://www.youtube.com/channel/UC8IBU5Xgk3psB14VHNNUgqQ">YouTube</a> and Share the Link (Make it Public).</h4></li>
+                                                    </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header" role="tab" id="headingTEN">
+                          <h5 class="mb-0">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTEN" aria-expanded="false" aria-controls="collapseTEN">
+                            <center><h4 style="font-weight: bold;">Final Round</h4></center>
+                            </a>
+                          </h5>
+                        </div>
+                        <div id="collapseTEN" class="collapse" role="tabpanel" aria-labelledby="headingTEN">
+                          <div class="card-block">
+                            <h3></h3>
+                            <h4>
+                                                    <ul>
+                                                        <li><b>Evaluation Round :</b>&nbsp;After completion of the Projects , before submitting, the Teams have to create videos demonstrating their respective Mobile / Web Applications and then upload them to YouTube to make them Public and then share the Links in the Web Portal in the Login Profile Page. The code(s) must be uploaded to Github or Google Drive after converting into a zip file. Thereafter, the participants shall submit from their respective repository link or drive link in the Login Profile Page.
+                                                       </li><br>
+                                                        <li><b>Judgement Criteria :</b>&nbsp;The evaluation will be based on innovation and novelty of the idea, solving the level of complexities, feasibility, practicability, sustainability, cost-effectiveness, the scale of impact, user experience, and potential for future work progression. We like great ideas and if it has some business potential, we will take it to the industry level with the support of our mentors from Techno India Group.</li>
+                                                    </ul>
+                    
+                    
+                                     
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+
+                    <p>&nbsp;</p>
+                    <div class="row mt-5 wow fadeIn" data-wow-delay="0.2s">
+                    <div class="col-lg-6" style="text-align:left;">
+                    <p>&nbsp;</p>
+                    </div>
+                    <div class="col-lg-6" style="text-align:left;"></div>
+                    <div class="container">
+                        <center><img src="college.png" height="100%" width="70%" style="padding-left: -300px"></center> 
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                                                <p>&nbsp;</p>
+                            <div class="row mt-5 wow fadeIn" data-wow-delay="0.2s">
+                    <div class="col-lg-6" style="text-align:left;">
+                       <h2 class="title" id="ps"><b>Awards & Prizes</b></h2>
+
+                    </div>
+                    <div class="col-lg-6" style="text-align:left;"></div>
+                    <div class="container">
+
+                        <div class="row">
+
+                            <ul>
+                              <li><h4><b>GRAND PRIZE (JUDGES CHOICE): </b>Rs. 70,000 + Raspberry Pi for each member</h4></li>
+                              <li><h4><b>FOR EACH DOMAIN:</h4>
+                                <ul>
+                                  <li><h4><b>First Prize:</b> Rs 30,000 + Google Home Mini for each member.</h4></li>
+                                  <s><li><h4><b>Second Prize:</b> Rs 20,000 +  Mi Band 4 for each member.</h4></li></s>
+                                </ul>
+                              </li>
+                              <!--<li><h4><b>SPECIFIC TASK:</b></h4>
+                                <ul>
+                                  <li>
+                                    <h4><b>Best Optimized Code:</b> Rs 8,000.</h4>
+                                  </li>
+                                    <li>
+                                      <h4><b>Best UI Design:</b> Rs 5,000.</h4>
+                                    </li>
+                                </ul>
+                              </li>
+                              <li><h4>Top 3 Teams with only High School students will get <b>Boat Wireless Earphone</b> for each team member.</h4></li>-->
+                              <li><h4>Certificates will be provided after the submission of the project.</h4></li>
+                            </ul>
+                            
+                            
+                            
+
+                                    </div>
+                                </div>
+                            </div>
+                
+                  
+                  
+                  
+                  <div class="col-md-12">
+            <div id="testimonial-slider" class="owl-carousel">
+                <div class="testimonial">
+                    <div class="pic">
+                        <img src="anil.jpg">
+                    </div>
+                    <p class="description">
+                        In his inaugural address, Dr. Sahasrabuddhe lauded the initiative and spoke about the need to spread the digital system in all walks of life.  He said AICTE has started online workshops on various issues at this critical moment.  Even online examination and inspection of documents of various educational institutions is being considered online in the near future.  According to him, in that case, having video recordings will not lead to allegations of corruption.
+                    </p>
+                    <div class="testimonial-profile">
+                        <h3 class="title">Anil Sahasrabudhe</h3>
+                        <span class="post">Chairman of AICTE</span>
+                    </div>
+                </div>
+ 
+                <div class="testimonial">
+                    <div class="pic">
+                        <img src="satyu.jpeg">
+                    </div>
+                    <p class="description">
+                        all my beloved students and all the CodeTigers present here. And actually if this is really a wonderful achievement for our students that in this Situation they have a did this thing and I congratulate and convey my sincere. Thanks, and I convey my blessings to all the students the all go Tigers of our growth and I definitely this will be a great success in future
+                    </p>
+                    <div class="testimonial-profile">
+                        <h3 class="title">Satyam Roy Chowdhury</h3>
+                        <span class="post">M.D ,Techno India Group </span>
+                    </div>
+                </div>
+ 
+                <div class="testimonial">
+                    <div class="pic">
+                        <img src="suranjan.jpg">
+                    </div>
+                    <p class="description">
+                      mobilize their own power to develop new things to innovate new things.
+
+                    For example each other for University students are producing economic early prototype reproduce masks economy cops. They are trying to develop his ventilators at a low cost. They're even have developed a model<br>
+                    <br>
+                    <br>
+                    <br>
+
+
+
+                    </p>
+                    <div class="testimonial-profile">
+                        <h3 class="title">Suranjan Das</h3>
+                        <span class="post">Vice Chancellor of Jadavpur University</span>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+                  
+                  
+                  
+                  
+                  
+                  
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+ 
+<script>
+$(document).ready(function(){
+    $("#testimonial-slider").owlCarousel({
+        items:2,
+        itemsDesktop:[1000,2],
+        itemsDesktopSmall:[979,2],
+        itemsTablet:[768,2],
+        itemsMobile:[650,1],
+        pagination:true,
+        navigation:false,
+        slideSpeed:1000,
+        autoPlay:true
+    });
+});
+</script>
+
+
+
+
+   
+    
+    
+                    <p>&nbsp;</p>
+                    <h3 class="title"><b>Frequently Asked Questions (FAQs)</b></h3>
+                    <div class="row">
+                    <div class="container-fluid body-content">
+                    <div id="accordion" role="tablist" aria-multiselectable="true">
+                      <div class="card">
+                        <div class="card-header" role="tab" id="headingThirty">
+                          <h5 class="mb-0">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThirty" aria-expanded="true" aria-controls="collapseThirty">
+                              <h4 style="font-weight: bold;">What are the Team formation criteria?</h4>
+                            </a>
+                          </h5>
+                        </div>
+                    
+                        <div id="collapseThirty" class="collapse" role="tabpanel" aria-labelledby="headinThirty">
+                          <div class="card-block"><h4>&nbsp;&nbsp;There can be a maximum of 5 members in a Team. 
+                                                    A Team will be recognised by the name it selects for 
+                                                    itself and with which it registers in the Online Portal of Code Tigers. As the software edition of the Hackathon is Digital Product Development Competition, the majority of the team members MUST be well versed with programming skills.</h4>
+                          
+                           </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header" role="tab" id="headingThirtytwo">
+                          <h5 class="mb-0">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThirtytwo" aria-expanded="false" aria-controls="collapseThirtytwo">
+                             <h4 style="font-weight: bold;">Where can we get the results?</h4>
+                            </a>
+                          </h5>
+                        </div>
+                        <div id="collapseThirtytwo" class="collapse" role="tabpanel" aria-labelledby="headingThirtytwo">
+                          <div class="card-block">
+                                        <h4>Notification about selected teams will be put up on our portal and will also be sent to their respective Mail Ids. One may also keep a track of all the latest announcements and updates about the initiative through our Website or the Code Tigers application on Play Store.</h4>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header" role="tab" id="headingThirtythree">
+                          <h5 class="mb-0">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThirtythree" aria-expanded="false" aria-controls="collapseThirtythree">
+                             <h4 style="font-weight: bold;">How To Register</h4>
+                            </a>
+                          </h5>
+                        </div>
+                        <div id="collapseThirtythree" class="collapse" role="tabpanel" aria-labelledby="headingThirtythree">
+                          <div class="card-block">
+    
+                         <h4>
+                                &nbsp;&nbsp;&nbsp;&nbsp; 
+                            <pre></pre>Go to https://codetigers.org. 
+                            Click [Register Now]. 
+                            Fill the personal details in the Page.
+                            Click Next.
+                            Enter your College / University Name & Roll No. in the Second Page.
+                            Click Next.
+                            Enter Team Name.
+                            Select Team Size (<= 5)
+                            Enter the Problem Codes.
+                            If you have selected Innovative Domain, write your Idea here within 200 Characters.
+                            Click Register.
+                            You will be registered and will get an unique id in your Mail Inbox. KEEP THAT ID SECURELY, DON’T SHARE ANYWHERE.</pre>
+                        </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                        <div class="card-header" role="tab" id="headingThirtyfour">
+                          <h5 class="mb-0">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThirtyfour" aria-expanded="false" aria-controls="collapseThirtyfour">
+                             <h4 style="font-weight: bold;">How To Contact Us ?</h4>
+                            </a>
+                          </h5>
+                        </div>
+                        <div id="collapseThirtyfour" class="collapse" role="tabpanel" aria-labelledby="headingThirtyfour">
+                          <div class="card-block">
+    
+                         <h4>
+                             You can mail us on this mail id <b>codetigers@codetigers.net</b> or send a message in our community forum
+                        </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                        <div class="card-header" role="tab" id="headingThirtysix">
+                          <h5 class="mb-0">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThirtysix" aria-expanded="false" aria-controls="collapseThirtysix">
+                             <h4 style="font-weight: bold;">How to Enter the details of Round 2 ?</h4>
+                            </a>
+                          </h5>
+                        </div>
+                        <div id="collapseThirtysix" class="collapse" role="tabpanel" aria-labelledby="headingThirtysix">
+                          <div class="card-block">
+    
+                         <h4>
+                             After registration, you will get an option to Download PPT Template. Download the template by clicking the button. Through that particular template, you have to submit your idea. You can add additional slides but the total slides must not exceed 10.
+
+                            Once, you finish your video and presentation, upload the links in the 2nd Round in the form for 2nd round where you have to submit Your ID (the unique id that you got in mail), Video Lin & PPT Link.
+                            
+                            Now click submit and you are done with the 2nd Round Registration. 
+
+                        </h4>
+                        </div>
+                    </div>
+                </div>
+                   <div class="card">
+                        <div class="card-header" role="tab" id="headingThirtyseven">
+                          <h5 class="mb-0">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThirtyseven" aria-expanded="false" aria-controls="collapseThirtyseven">
+                             <h4 style="font-weight: bold;">How to enter the details of the Round 3 ?</h4>
+                            </a>
+                          </h5>
+                        </div>
+                        <div id="collapseThirtyseven" class="collapse" role="tabpanel" aria-labelledby="headingThirtyseven">
+                          <div class="card-block">
+    
+                         <h4>
+                             Enter Registration Id, Enter your Source Code link &  Demonstration Video link. Click on Submit.
+
+                        </h4>
+                        </div>
+                    </div>
+                </div>
+    <div id="footer">
+        <br><br>
+        <a href="#top" id="top-button" style="color:rgb(0,101,202); background:white;">
+                <i class="material-icons" style="color:rgb(0,101,202); background:white; font-size: 30px;">
+                        keyboard_arrow_up
+                        </i>
+        </a>
+        <div class="container" style="padding-top: 20px;">
+
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="share-social share">
+                        <span><b>SHARE</b>
+                            <a href="https://facebook.com/sharer/sharer.php" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a>&nbsp;</a>
+                            <a href="https://twitter.com/compose/tweet"
+                                target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/codetigers/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </span>
+                    </div><br>
+                </div>
+                <div class="col-lg-3">
+                    <div class="share-social">
+                        <span><b>FOLLOW US</b>
+                            <a href="https://www.facebook.com/TIGCodeTigers/" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a href="https://twitter.com/code_tigers" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.linkedin.com/company/code-tigers/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="https://www.youtube.com/channel/UC8IBU5Xgk3psB14VHNNUgqQ" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                            <br>
+                        </span>
+                    </div>
+                </div><br>
+                <div class="col-lg-3">
+                    <div class="share-social">
+                        <span><a href="mailto:support@codetigers.net"><b>EMAIL US</b></a></span>
+                    </div>
+                </div>
+                
+                
+                
+            </div>
+        </div>
+        <hr />
+        <a href='https://play.google.com/store/apps/details?id=codetigers.decov&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' style="width: 14%; height:17%;/></a>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 footer-details">
+                    <span><b>ABOUT</b></span>
+                    <p>
+                        <a href="#about">Code Tigers</a><br />
+                        <a href="https://twitter.com/hashtag/Decov2020" target="_blank"><b>#Decov2020</b></a> &nbsp;
+                        <a href="https://twitter.com/hashtag/Codetigers2020" target="_blank"><b>#decov2020</b></a>
+                        <a href="https://twitter.com/hashtag/Codetigers2020" target="_blank"><b>#Codetigers2020</b></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <hr />
+        
+        <div class="container" style="padding-bottom: 20px;">
+
+            <div class="row">
+                <div class="col-lg-3">
+                    <img src="titlelogo.png" height="65%" width="65%" alt="codetiger-logo"  />
+                </div>
+                <div class="col-lg-9 copyright" style="font-family: 'Open Sans', sans-serif;">
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &copy; Copyright 2020 | Team Code Tigers <span class="hide-bar"> | &nbsp;<a style="color: grey;" href="https://forms.gle/7zLSRVfmNRT4wez47">Feedback <span class="hide-bar"> |</a></span>&nbsp;<a style="color: grey;" href="https://codetigers.netlify.app/">Blog <span class="hide-bar"> |</a></span>&nbsp;<a  href="#">Developed with 	&#10084;</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("May 23, 2020 12:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+
+<style>
+ .cnt{
+  text-align: center;
+  font-size: 35px;
+  margin-top: 0px;
+}
+</style>
+
+    <script>
+        if('serviceWorker' in navigator) {
+          navigator.serviceWorker
+                   .register('/sw.js')
+                   .then(function() { console.log("Service Worker Registered"); });
+        }
+    </script>
+    <script src="assets/js/core/jquery.min.js"></script>
+    <script src="assets/js/core/popper.min.js"></script>
+    <script src="assets/js/bootstrap-material-design.js"></script>
+
+    <script src="assets/js/material-kit.js?v=2.0.2"></script>
+    <script src="assets/assets-custom/js/material-kit-demo.js"></script>
+    <script src="assets/assets-custom/main.js"></script>
+    <script src="assets/assets-custom/termynal.min.js"></script>
+    <script src="assets/assets-custom/index.js"></script>
+    
+
+</body>
+</html>

@@ -1,0 +1,552 @@
+[03-May-2020 11:09:55 UTC] PHP Fatal error:  Uncaught Exception: An error occurred while attempting to connect to the database|Gdn_Database|Connection|SQLSTATE[42000] [1049] Unknown database 'i6656385_vf2' in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/database/class.database.php:172
+Stack trace:
+#0 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/database/class.database.php(102): Gdn_Database->newPDO('host=localhost;...', 'i6656385_vf2', 'S.3jXSUwKANcwDI...')
+#1 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/database/class.database.php(580): Gdn_Database->connection()
+#2 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/database/class.database.php(363): Gdn_Database->slave()
+#3 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/database/class.sqldriver.php(1707): Gdn_Database->query('select *\nfrom `...', Array, Array)
+#4 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/database/class.sqldriver.php(934): Gdn_SQLDriver->query('select *\nfrom `...')
+#5 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/models/class.rolemodel.php(231): Gdn_SQLDriver->getWhere('UserRole', Array)
+#6 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/models/class.permissionmodel.php(523): RoleModel::getDefaultRoles('guest')
+#7 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/models/class.usermodel.php(5057): PermissionModel->cachePermissions(0)
+#8 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.session.php(499): UserModel->getPermissions(0)
+#9 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.auth.php(64): Gdn_Session->start(false, false)
+#10 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/bootstrap.php(517): Gdn_Auth->startAuthenticator()
+#11 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/index.php(22): require_once('/home/jdmf9z4zr...')
+#12 {main}
+  thrown in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/database/class.database.php on line 172
+[03-May-2020 11:09:56 UTC] PHP Fatal error:  Uncaught Exception: An error occurred while attempting to connect to the database|Gdn_Database|Connection|SQLSTATE[42000] [1049] Unknown database 'i6656385_vf2' in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/database/class.database.php:172
+Stack trace:
+#0 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/database/class.database.php(102): Gdn_Database->newPDO('host=localhost;...', 'i6656385_vf2', 'S.3jXSUwKANcwDI...')
+#1 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/database/class.database.php(580): Gdn_Database->connection()
+#2 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/database/class.database.php(363): Gdn_Database->slave()
+#3 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/database/class.sqldriver.php(1707): Gdn_Database->query('select *\nfrom `...', Array, Array)
+#4 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/database/class.sqldriver.php(934): Gdn_SQLDriver->query('select *\nfrom `...')
+#5 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/models/class.rolemodel.php(231): Gdn_SQLDriver->getWhere('UserRole', Array)
+#6 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/models/class.permissionmodel.php(523): RoleModel::getDefaultRoles('guest')
+#7 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/models/class.usermodel.php(5057): PermissionModel->cachePermissions(0)
+#8 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.session.php(499): UserModel->getPermissions(0)
+#9 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.auth.php(64): Gdn_Session->start(false, false)
+#10 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/bootstrap.php(517): Gdn_Auth->startAuthenticator()
+#11 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/index.php(22): require_once('/home/jdmf9z4zr...')
+#12 {main}
+  thrown in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/database/class.database.php on line 172
+[03-May-2020 11:20:33 UTC] PHP Warning:  dateTimeToTimeStampcalled with bad input  in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/DateTimeFormatter.php on line 228
+[03-May-2020 11:20:35 UTC] PHP Warning:  Bad input encountered|Vanilla\Formatting\Formats\RichFormat|Vanilla\Formatting\Formats\RichFormat::logBadInput|Error: Class 'Vanilla\Formatting\Embeds\FileEmbed' not found in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php:140
+Stack trace:
+#0 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/FormatService.php(108): Vanilla\Formatting\Formats\RichFormat->parseAttachments('[{"insert":"Cod...')
+#1 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/UpdateMediaTrait.php(115): Vanilla\Formatting\FormatService->parseAttachments('[{"insert":"Cod...', 'Rich')
+#2 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/vanilla/models/class.discussionmodel.php(252): DiscussionModel->refreshMediaAttachments(5, '[{"insert":"Cod...', 'Rich')
+#3 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/vanilla/models/class.discussionmodel.php(2217): DiscussionModel->calculateMediaAttachments(5, false)
+#4 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/vanilla/controllers/class.postcontroller.php(323): DiscussionModel->save(Array)
+#5 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(872): PostController->discussion('general')
+#6 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(289): Gdn_Dispatcher->dispatchController(Object(Gdn_Request), Array)
+#7 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/index.php(29): Gdn_Dispatcher->dispatch()
+#8 {main} in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php on line 229
+[04-May-2020 01:07:37 UTC] PHP Warning:  dateTimeToTimeStampcalled with bad input  in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/DateTimeFormatter.php on line 228
+[04-May-2020 01:08:37 UTC] PHP Warning:  dateTimeToTimeStampcalled with bad input  in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/DateTimeFormatter.php on line 228
+[09-May-2020 22:14:23 UTC] PHP Warning:  dateTimeToTimeStampcalled with bad input  in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/DateTimeFormatter.php on line 228
+[19-May-2020 02:07:50 UTC] PHP Warning:  dateTimeToTimeStampcalled with bad input  in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/DateTimeFormatter.php on line 228
+[19-May-2020 02:08:50 UTC] PHP Warning:  dateTimeToTimeStampcalled with bad input  in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/DateTimeFormatter.php on line 228
+[08-Jun-2020 00:54:39 UTC] PHP Warning:  Bad input encountered|Vanilla\Formatting\Formats\RichFormat|Vanilla\Formatting\Formats\RichFormat::logBadInput|Vanilla\Formatting\Exception\FormattingException: JSON could not be converted into quill operations.
+ коралловая вода что это такое емайл https://ru.coral-club.com/shop/products/2201.html?REF_CODE=546923435152 in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Quill/Parser.php:160
+Stack trace:
+#0 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php(63): Vanilla\Formatting\Quill\Parser::jsonToOperations('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#1 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/FormatService.php(34): Vanilla\Formatting\Formats\RichFormat->renderHTML('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#2 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(1456): Vanilla\Formatting\FormatService->renderHTML('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'rich')
+#3 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(1227): Gdn_Format::rich('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#4 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/helper_functions.php(27): Gdn_Format::to('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'Rich')
+#5 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/activities.php(16): writeActivity(Object(stdClass), Object(ProfileController), Object(Gdn_Session))
+#6 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/index.php(4): include('/home/jdmf9z4zr...')
+#7 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/profile/activity.php(24): include('/home/jdmf9z4zr...')
+#8 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(782): include('/home/jdmf9z4zr...')
+#9 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/profile/index.php(7): Gdn_Controller->fetchView('Activity', 'Profile', 'Dashboard')
+#10 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(782): include('/home/jdmf9z4zr...')
+#11 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(1386): Gdn_Controller->fetchView('', false, false)
+#12 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.pluggable.php(217): Gdn_Controller->xRender()
+#13 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/controllers/class.profilecontroller.php(181): Gdn_Pluggable->__call('render', Array)
+#14 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/controllers/class.profilecontroller.php(554): ProfileController->activity('admin', 'admin', '2', false)
+#15 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(872): ProfileController->index('admin', '', '', false)
+#16 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(289): Gdn_Dispatcher->dispatchController(Object(Gdn_Request), Array)
+#17 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/index.php(29): Gdn_Dispatcher->dispatch()
+#18 {main} in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php on line 229
+[09-Jun-2020 21:59:03 UTC] PHP Warning:  Bad input encountered|Vanilla\Formatting\Formats\RichFormat|Vanilla\Formatting\Formats\RichFormat::logBadInput|Vanilla\Formatting\Exception\FormattingException: JSON could not be converted into quill operations.
+ коралловая вода что это такое емайл https://ru.coral-club.com/shop/products/2201.html?REF_CODE=546923435152 in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Quill/Parser.php:160
+Stack trace:
+#0 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php(63): Vanilla\Formatting\Quill\Parser::jsonToOperations('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#1 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/FormatService.php(34): Vanilla\Formatting\Formats\RichFormat->renderHTML('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#2 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(1456): Vanilla\Formatting\FormatService->renderHTML('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'rich')
+#3 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(1227): Gdn_Format::rich('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#4 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/helper_functions.php(27): Gdn_Format::to('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'Rich')
+#5 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/activities.php(16): writeActivity(Object(stdClass), Object(ProfileController), Object(Gdn_Session))
+#6 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/index.php(4): include('/home/jdmf9z4zr...')
+#7 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/profile/activity.php(24): include('/home/jdmf9z4zr...')
+#8 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(782): include('/home/jdmf9z4zr...')
+#9 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/profile/index.php(7): Gdn_Controller->fetchView('Activity', 'Profile', 'Dashboard')
+#10 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(782): include('/home/jdmf9z4zr...')
+#11 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(1386): Gdn_Controller->fetchView('', false, false)
+#12 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.pluggable.php(217): Gdn_Controller->xRender()
+#13 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/controllers/class.profilecontroller.php(181): Gdn_Pluggable->__call('render', Array)
+#14 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/controllers/class.profilecontroller.php(554): ProfileController->activity('admin', 'admin', '2', false)
+#15 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(872): ProfileController->index('admin', '', '', false)
+#16 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(289): Gdn_Dispatcher->dispatchController(Object(Gdn_Request), Array)
+#17 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/index.php(29): Gdn_Dispatcher->dispatch()
+#18 {main} in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php on line 229
+[09-Jun-2020 22:00:01 UTC] PHP Warning:  Bad input encountered|Vanilla\Formatting\Formats\RichFormat|Vanilla\Formatting\Formats\RichFormat::logBadInput|Vanilla\Formatting\Exception\FormattingException: JSON could not be converted into quill operations.
+ коралловая вода что это такое емайл https://ru.coral-club.com/shop/products/2201.html?REF_CODE=546923435152 in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Quill/Parser.php:160
+Stack trace:
+#0 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php(63): Vanilla\Formatting\Quill\Parser::jsonToOperations('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#1 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/FormatService.php(34): Vanilla\Formatting\Formats\RichFormat->renderHTML('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#2 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(1456): Vanilla\Formatting\FormatService->renderHTML('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'rich')
+#3 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(1227): Gdn_Format::rich('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#4 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/helper_functions.php(27): Gdn_Format::to('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'Rich')
+#5 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/activities.php(16): writeActivity(Object(stdClass), Object(ActivityController), Object(Gdn_Session))
+#6 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/all.php(29): include('/home/jdmf9z4zr...')
+#7 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(782): include('/home/jdmf9z4zr...')
+#8 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(1386): Gdn_Controller->fetchView('', false, false)
+#9 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.pluggable.php(217): Gdn_Controller->xRender()
+#10 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/controllers/class.activitycontroller.php(158): Gdn_Pluggable->__call('render', Array)
+#11 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(872): ActivityController->index('public', false)
+#12 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(289): Gdn_Dispatcher->dispatchController(Object(Gdn_Request), Array)
+#13 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/index.php(29): Gdn_Dispatcher->dispatch()
+#14 {main} in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php on line 229
+[09-Jun-2020 22:01:44 UTC] PHP Warning:  Bad input encountered|Vanilla\Formatting\Formats\RichFormat|Vanilla\Formatting\Formats\RichFormat::logBadInput|Vanilla\Formatting\Exception\FormattingException: JSON could not be converted into quill operations.
+ коралловая вода что это такое емайл https://ru.coral-club.com/shop/products/2201.html?REF_CODE=546923435152 in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Quill/Parser.php:160
+Stack trace:
+#0 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php(82): Vanilla\Formatting\Quill\Parser::jsonToOperations('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#1 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/FormatService.php(80): Vanilla\Formatting\Formats\RichFormat->renderPlainText('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#2 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(612): Vanilla\Formatting\FormatService->renderPlainText('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'Rich')
+#3 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/plugins/GooglePlus/class.googleplus.plugin.php(541): Gdn_Format::plainText('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'Rich')
+#4 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(872): GooglePlusPlugin->postController_googlePlus_create(Object(PostController), 'activity', '11')
+#5 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(289): Gdn_Dispatcher->dispatchController(Object(Gdn_Request), Array)
+#6 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/index.php(29): Gdn_Dispatcher->dispatch()
+#7 {main} in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php on line 229
+[09-Jun-2020 22:02:55 UTC] PHP Warning:  Bad input encountered|Vanilla\Formatting\Formats\RichFormat|Vanilla\Formatting\Formats\RichFormat::logBadInput|Vanilla\Formatting\Exception\FormattingException: JSON could not be converted into quill operations.
+ коралловая вода что это такое емайл https://ru.coral-club.com/shop/products/2201.html?REF_CODE=546923435152 in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Quill/Parser.php:160
+Stack trace:
+#0 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php(63): Vanilla\Formatting\Quill\Parser::jsonToOperations('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#1 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/FormatService.php(34): Vanilla\Formatting\Formats\RichFormat->renderHTML('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#2 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(1456): Vanilla\Formatting\FormatService->renderHTML('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'rich')
+#3 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(1227): Gdn_Format::rich('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#4 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/helper_functions.php(27): Gdn_Format::to('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'Rich')
+#5 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/activities.php(16): writeActivity(Object(stdClass), Object(ProfileController), Object(Gdn_Session))
+#6 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/index.php(4): include('/home/jdmf9z4zr...')
+#7 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/profile/activity.php(24): include('/home/jdmf9z4zr...')
+#8 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(782): include('/home/jdmf9z4zr...')
+#9 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/profile/index.php(7): Gdn_Controller->fetchView('Activity', 'Profile', 'Dashboard')
+#10 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(782): include('/home/jdmf9z4zr...')
+#11 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(1386): Gdn_Controller->fetchView('', false, false)
+#12 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.pluggable.php(217): Gdn_Controller->xRender()
+#13 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/controllers/class.profilecontroller.php(181): Gdn_Pluggable->__call('render', Array)
+#14 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/controllers/class.profilecontroller.php(554): ProfileController->activity('admin', 'admin', '2', false)
+#15 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(872): ProfileController->index('admin', '', '', false)
+#16 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(289): Gdn_Dispatcher->dispatchController(Object(Gdn_Request), Array)
+#17 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/index.php(29): Gdn_Dispatcher->dispatch()
+#18 {main} in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php on line 229
+[09-Jun-2020 22:03:31 UTC] PHP Warning:  Bad input encountered|Vanilla\Formatting\Formats\RichFormat|Vanilla\Formatting\Formats\RichFormat::logBadInput|Vanilla\Formatting\Exception\FormattingException: JSON could not be converted into quill operations.
+ коралловая вода что это такое емайл https://ru.coral-club.com/shop/products/2201.html?REF_CODE=546923435152 in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Quill/Parser.php:160
+Stack trace:
+#0 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php(63): Vanilla\Formatting\Quill\Parser::jsonToOperations('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#1 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/FormatService.php(34): Vanilla\Formatting\Formats\RichFormat->renderHTML('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#2 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(1456): Vanilla\Formatting\FormatService->renderHTML('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'rich')
+#3 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(1227): Gdn_Format::rich('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#4 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/helper_functions.php(27): Gdn_Format::to('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'Rich')
+#5 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/activities.php(16): writeActivity(Object(stdClass), Object(ActivityController), Object(Gdn_Session))
+#6 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/all.php(29): include('/home/jdmf9z4zr...')
+#7 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(782): include('/home/jdmf9z4zr...')
+#8 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(1386): Gdn_Controller->fetchView('', false, false)
+#9 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.pluggable.php(217): Gdn_Controller->xRender()
+#10 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/controllers/class.activitycontroller.php(158): Gdn_Pluggable->__call('render', Array)
+#11 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(872): ActivityController->index('public', false)
+#12 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(289): Gdn_Dispatcher->dispatchController(Object(Gdn_Request), Array)
+#13 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/index.php(29): Gdn_Dispatcher->dispatch()
+#14 {main} in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php on line 229
+[09-Jun-2020 22:07:44 UTC] PHP Warning:  Bad input encountered|Vanilla\Formatting\Formats\RichFormat|Vanilla\Formatting\Formats\RichFormat::logBadInput|Vanilla\Formatting\Exception\FormattingException: JSON could not be converted into quill operations.
+ коралловая вода что это такое емайл https://ru.coral-club.com/shop/products/2201.html?REF_CODE=546923435152 in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Quill/Parser.php:160
+Stack trace:
+#0 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php(63): Vanilla\Formatting\Quill\Parser::jsonToOperations('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#1 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/FormatService.php(34): Vanilla\Formatting\Formats\RichFormat->renderHTML('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#2 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(1456): Vanilla\Formatting\FormatService->renderHTML('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'rich')
+#3 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(1227): Gdn_Format::rich('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#4 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/helper_functions.php(27): Gdn_Format::to('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'Rich')
+#5 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/activities.php(16): writeActivity(Object(stdClass), Object(ProfileController), Object(Gdn_Session))
+#6 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/index.php(4): include('/home/jdmf9z4zr...')
+#7 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/profile/activity.php(24): include('/home/jdmf9z4zr...')
+#8 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(782): include('/home/jdmf9z4zr...')
+#9 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/profile/index.php(7): Gdn_Controller->fetchView('Activity', 'Profile', 'Dashboard')
+#10 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(782): include('/home/jdmf9z4zr...')
+#11 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(1386): Gdn_Controller->fetchView('', false, false)
+#12 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.pluggable.php(217): Gdn_Controller->xRender()
+#13 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/controllers/class.profilecontroller.php(181): Gdn_Pluggable->__call('render', Array)
+#14 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(872): ProfileController->activity('admin', 'admin', '2', '')
+#15 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(289): Gdn_Dispatcher->dispatchController(Object(Gdn_Request), Array)
+#16 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/index.php(29): Gdn_Dispatcher->dispatch()
+#17 {main} in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php on line 229
+[09-Jun-2020 22:11:17 UTC] PHP Warning:  Bad input encountered|Vanilla\Formatting\Formats\RichFormat|Vanilla\Formatting\Formats\RichFormat::logBadInput|Vanilla\Formatting\Exception\FormattingException: JSON could not be converted into quill operations.
+ коралловая вода что это такое емайл https://ru.coral-club.com/shop/products/2201.html?REF_CODE=546923435152 in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Quill/Parser.php:160
+Stack trace:
+#0 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php(63): Vanilla\Formatting\Quill\Parser::jsonToOperations('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#1 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/FormatService.php(34): Vanilla\Formatting\Formats\RichFormat->renderHTML('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#2 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(1456): Vanilla\Formatting\FormatService->renderHTML('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'rich')
+#3 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(1227): Gdn_Format::rich('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#4 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/helper_functions.php(27): Gdn_Format::to('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'Rich')
+#5 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/activities.php(16): writeActivity(Object(stdClass), Object(ProfileController), Object(Gdn_Session))
+#6 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/index.php(4): include('/home/jdmf9z4zr...')
+#7 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/profile/activity.php(24): include('/home/jdmf9z4zr...')
+#8 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(782): include('/home/jdmf9z4zr...')
+#9 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/profile/index.php(7): Gdn_Controller->fetchView('Activity', 'Profile', 'Dashboard')
+#10 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(782): include('/home/jdmf9z4zr...')
+#11 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(1386): Gdn_Controller->fetchView('', false, false)
+#12 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.pluggable.php(217): Gdn_Controller->xRender()
+#13 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/controllers/class.profilecontroller.php(181): Gdn_Pluggable->__call('render', Array)
+#14 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(872): ProfileController->activity('admin', 'admin', '2', '')
+#15 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(289): Gdn_Dispatcher->dispatchController(Object(Gdn_Request), Array)
+#16 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/index.php(29): Gdn_Dispatcher->dispatch()
+#17 {main} in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php on line 229
+[11-Jun-2020 09:31:57 UTC] PHP Warning:  Bad input encountered|Vanilla\Formatting\Formats\RichFormat|Vanilla\Formatting\Formats\RichFormat::logBadInput|Vanilla\Formatting\Exception\FormattingException: JSON could not be converted into quill operations.
+ коралловая вода что это такое емайл https://ru.coral-club.com/shop/products/2201.html?REF_CODE=546923435152 in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Quill/Parser.php:160
+Stack trace:
+#0 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php(63): Vanilla\Formatting\Quill\Parser::jsonToOperations('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#1 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/FormatService.php(34): Vanilla\Formatting\Formats\RichFormat->renderHTML('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#2 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(1456): Vanilla\Formatting\FormatService->renderHTML('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'rich')
+#3 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(1227): Gdn_Format::rich('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#4 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/helper_functions.php(27): Gdn_Format::to('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'Rich')
+#5 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/activities.php(16): writeActivity(Object(stdClass), Object(ActivityController), Object(Gdn_Session))
+#6 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/all.php(29): include('/home/jdmf9z4zr...')
+#7 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(782): include('/home/jdmf9z4zr...')
+#8 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(1386): Gdn_Controller->fetchView('', false, false)
+#9 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.pluggable.php(217): Gdn_Controller->xRender()
+#10 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/controllers/class.activitycontroller.php(158): Gdn_Pluggable->__call('render', Array)
+#11 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(872): ActivityController->index('public', false)
+#12 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(289): Gdn_Dispatcher->dispatchController(Object(Gdn_Request), Array)
+#13 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/index.php(29): Gdn_Dispatcher->dispatch()
+#14 {main} in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php on line 229
+[11-Jun-2020 09:32:14 UTC] PHP Warning:  Bad input encountered|Vanilla\Formatting\Formats\RichFormat|Vanilla\Formatting\Formats\RichFormat::logBadInput|Vanilla\Formatting\Exception\FormattingException: JSON could not be converted into quill operations.
+ коралловая вода что это такое емайл https://ru.coral-club.com/shop/products/2201.html?REF_CODE=546923435152 in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Quill/Parser.php:160
+Stack trace:
+#0 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php(63): Vanilla\Formatting\Quill\Parser::jsonToOperations('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#1 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/FormatService.php(34): Vanilla\Formatting\Formats\RichFormat->renderHTML('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#2 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(1456): Vanilla\Formatting\FormatService->renderHTML('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'rich')
+#3 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(1227): Gdn_Format::rich('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#4 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(660): Gdn_Format::to('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'Rich')
+#5 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/all_rss.php(16): Gdn_Format::rssHtml('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'Rich')
+#6 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(782): include('/home/jdmf9z4zr...')
+#7 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(1386): Gdn_Controller->fetchView('', false, false)
+#8 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.pluggable.php(217): Gdn_Controller->xRender()
+#9 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/controllers/class.activitycontroller.php(158): Gdn_Pluggable->__call('render', Array)
+#10 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(872): ActivityController->index('public', false)
+#11 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(289): Gdn_Dispatcher->dispatchController(Object(Gdn_Request), Array)
+#12 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/index.php(29): Gdn_Dispatcher->dispatch()
+#13 {main} in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php on line 229
+[11-Jun-2020 09:37:43 UTC] PHP Warning:  Bad input encountered|Vanilla\Formatting\Formats\RichFormat|Vanilla\Formatting\Formats\RichFormat::logBadInput|Vanilla\Formatting\Exception\FormattingException: JSON could not be converted into quill operations.
+ коралловая вода что это такое емайл https://ru.coral-club.com/shop/products/2201.html?REF_CODE=546923435152 in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Quill/Parser.php:160
+Stack trace:
+#0 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php(63): Vanilla\Formatting\Quill\Parser::jsonToOperations('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#1 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/FormatService.php(34): Vanilla\Formatting\Formats\RichFormat->renderHTML('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#2 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(1456): Vanilla\Formatting\FormatService->renderHTML('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'rich')
+#3 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(1227): Gdn_Format::rich('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#4 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/helper_functions.php(27): Gdn_Format::to('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'Rich')
+#5 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/activities.php(16): writeActivity(Object(stdClass), Object(ActivityController), Object(Gdn_Session))
+#6 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/all.php(29): include('/home/jdmf9z4zr...')
+#7 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(782): include('/home/jdmf9z4zr...')
+#8 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(1386): Gdn_Controller->fetchView('', false, false)
+#9 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.pluggable.php(217): Gdn_Controller->xRender()
+#10 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/controllers/class.activitycontroller.php(158): Gdn_Pluggable->__call('render', Array)
+#11 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(872): ActivityController->index('public', false)
+#12 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(289): Gdn_Dispatcher->dispatchController(Object(Gdn_Request), Array)
+#13 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/index.php(29): Gdn_Dispatcher->dispatch()
+#14 {main} in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php on line 229
+[11-Jun-2020 09:37:51 UTC] PHP Warning:  Bad input encountered|Vanilla\Formatting\Formats\RichFormat|Vanilla\Formatting\Formats\RichFormat::logBadInput|Vanilla\Formatting\Exception\FormattingException: JSON could not be converted into quill operations.
+ коралловая вода что это такое емайл https://ru.coral-club.com/shop/products/2201.html?REF_CODE=546923435152 in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Quill/Parser.php:160
+Stack trace:
+#0 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php(63): Vanilla\Formatting\Quill\Parser::jsonToOperations('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#1 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/FormatService.php(34): Vanilla\Formatting\Formats\RichFormat->renderHTML('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#2 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(1456): Vanilla\Formatting\FormatService->renderHTML('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'rich')
+#3 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(1227): Gdn_Format::rich('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#4 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(660): Gdn_Format::to('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'Rich')
+#5 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/all_rss.php(16): Gdn_Format::rssHtml('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'Rich')
+#6 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(782): include('/home/jdmf9z4zr...')
+#7 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(1386): Gdn_Controller->fetchView('', false, false)
+#8 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.pluggable.php(217): Gdn_Controller->xRender()
+#9 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/controllers/class.activitycontroller.php(158): Gdn_Pluggable->__call('render', Array)
+#10 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(872): ActivityController->index('public', false)
+#11 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(289): Gdn_Dispatcher->dispatchController(Object(Gdn_Request), Array)
+#12 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/index.php(29): Gdn_Dispatcher->dispatch()
+#13 {main} in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php on line 229
+[11-Jun-2020 18:23:24 UTC] PHP Warning:  Bad input encountered|Vanilla\Formatting\Formats\RichFormat|Vanilla\Formatting\Formats\RichFormat::logBadInput|Vanilla\Formatting\Exception\FormattingException: JSON could not be converted into quill operations.
+ коралловая вода что это такое емайл https://ru.coral-club.com/shop/products/2201.html?REF_CODE=546923435152 in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Quill/Parser.php:160
+Stack trace:
+#0 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php(82): Vanilla\Formatting\Quill\Parser::jsonToOperations('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#1 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/FormatService.php(80): Vanilla\Formatting\Formats\RichFormat->renderPlainText('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#2 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(612): Vanilla\Formatting\FormatService->renderPlainText('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'Rich')
+#3 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/plugins/GooglePlus/class.googleplus.plugin.php(541): Gdn_Format::plainText('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'Rich')
+#4 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(872): GooglePlusPlugin->postController_googlePlus_create(Object(PostController), 'activity', '11')
+#5 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(289): Gdn_Dispatcher->dispatchController(Object(Gdn_Request), Array)
+#6 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/index.php(29): Gdn_Dispatcher->dispatch()
+#7 {main} in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php on line 229
+[11-Jun-2020 18:45:26 UTC] PHP Warning:  Bad input encountered|Vanilla\Formatting\Formats\RichFormat|Vanilla\Formatting\Formats\RichFormat::logBadInput|Vanilla\Formatting\Exception\FormattingException: JSON could not be converted into quill operations.
+ коралловая вода что это такое емайл https://ru.coral-club.com/shop/products/2201.html?REF_CODE=546923435152 in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Quill/Parser.php:160
+Stack trace:
+#0 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php(82): Vanilla\Formatting\Quill\Parser::jsonToOperations('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#1 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/FormatService.php(80): Vanilla\Formatting\Formats\RichFormat->renderPlainText('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#2 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(612): Vanilla\Formatting\FormatService->renderPlainText('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'Rich')
+#3 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/plugins/GooglePlus/class.googleplus.plugin.php(541): Gdn_Format::plainText('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'Rich')
+#4 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(872): GooglePlusPlugin->postController_googlePlus_create(Object(PostController), 'activity', '11')
+#5 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(289): Gdn_Dispatcher->dispatchController(Object(Gdn_Request), Array)
+#6 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/index.php(29): Gdn_Dispatcher->dispatch()
+#7 {main} in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php on line 229
+[16-Jun-2020 19:47:29 UTC] PHP Warning:  dateTimeToTimeStampcalled with bad input  in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/DateTimeFormatter.php on line 228
+[16-Jun-2020 19:51:34 UTC] PHP Warning:  dateTimeToTimeStampcalled with bad input  in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/DateTimeFormatter.php on line 228
+[29-Jun-2020 15:45:42 UTC] PHP Warning:  Bad input encountered|Vanilla\Formatting\Formats\RichFormat|Vanilla\Formatting\Formats\RichFormat::logBadInput|Vanilla\Formatting\Exception\FormattingException: JSON could not be converted into quill operations.
+ коралловая вода что это такое емайл https://ru.coral-club.com/shop/products/2201.html?REF_CODE=546923435152 in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Quill/Parser.php:160
+Stack trace:
+#0 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php(63): Vanilla\Formatting\Quill\Parser::jsonToOperations('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#1 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/FormatService.php(34): Vanilla\Formatting\Formats\RichFormat->renderHTML('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#2 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(1456): Vanilla\Formatting\FormatService->renderHTML('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'rich')
+#3 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(1227): Gdn_Format::rich('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#4 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/helper_functions.php(27): Gdn_Format::to('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'Rich')
+#5 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/activities.php(16): writeActivity(Object(stdClass), Object(ActivityController), Object(Gdn_Session))
+#6 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/all.php(29): include('/home/jdmf9z4zr...')
+#7 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(782): include('/home/jdmf9z4zr...')
+#8 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(1386): Gdn_Controller->fetchView('', false, false)
+#9 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.pluggable.php(217): Gdn_Controller->xRender()
+#10 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/controllers/class.activitycontroller.php(158): Gdn_Pluggable->__call('render', Array)
+#11 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(872): ActivityController->index('public', false)
+#12 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(289): Gdn_Dispatcher->dispatchController(Object(Gdn_Request), Array)
+#13 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/index.php(29): Gdn_Dispatcher->dispatch()
+#14 {main} in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php on line 229
+[29-Jun-2020 21:22:59 UTC] PHP Warning:  Bad input encountered|Vanilla\Formatting\Formats\RichFormat|Vanilla\Formatting\Formats\RichFormat::logBadInput|Vanilla\Formatting\Exception\FormattingException: JSON could not be converted into quill operations.
+ коралловая вода что это такое емайл https://ru.coral-club.com/shop/products/2201.html?REF_CODE=546923435152 in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Quill/Parser.php:160
+Stack trace:
+#0 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php(63): Vanilla\Formatting\Quill\Parser::jsonToOperations('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#1 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/FormatService.php(34): Vanilla\Formatting\Formats\RichFormat->renderHTML('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#2 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(1456): Vanilla\Formatting\FormatService->renderHTML('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'rich')
+#3 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(1227): Gdn_Format::rich('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#4 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/helper_functions.php(27): Gdn_Format::to('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'Rich')
+#5 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/activities.php(16): writeActivity(Object(stdClass), Object(ProfileController), Object(Gdn_Session))
+#6 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/index.php(4): include('/home/jdmf9z4zr...')
+#7 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/profile/activity.php(24): include('/home/jdmf9z4zr...')
+#8 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(782): include('/home/jdmf9z4zr...')
+#9 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/profile/index.php(7): Gdn_Controller->fetchView('Activity', 'Profile', 'Dashboard')
+#10 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(782): include('/home/jdmf9z4zr...')
+#11 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(1386): Gdn_Controller->fetchView('', false, false)
+#12 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.pluggable.php(217): Gdn_Controller->xRender()
+#13 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/controllers/class.profilecontroller.php(181): Gdn_Pluggable->__call('render', Array)
+#14 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/controllers/class.profilecontroller.php(554): ProfileController->activity('admin', 'admin', '2', false)
+#15 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(872): ProfileController->index('admin', '', '', false)
+#16 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(289): Gdn_Dispatcher->dispatchController(Object(Gdn_Request), Array)
+#17 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/index.php(29): Gdn_Dispatcher->dispatch()
+#18 {main} in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php on line 229
+[02-Jul-2020 14:14:44 UTC] PHP Warning:  Bad input encountered|Vanilla\Formatting\Formats\RichFormat|Vanilla\Formatting\Formats\RichFormat::logBadInput|Vanilla\Formatting\Exception\FormattingException: JSON could not be converted into quill operations.
+ коралловая вода что это такое емайл https://ru.coral-club.com/shop/products/2201.html?REF_CODE=546923435152 in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Quill/Parser.php:160
+Stack trace:
+#0 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php(63): Vanilla\Formatting\Quill\Parser::jsonToOperations('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#1 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/FormatService.php(34): Vanilla\Formatting\Formats\RichFormat->renderHTML('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#2 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(1456): Vanilla\Formatting\FormatService->renderHTML('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'rich')
+#3 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(1227): Gdn_Format::rich('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#4 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/helper_functions.php(27): Gdn_Format::to('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'Rich')
+#5 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/activities.php(16): writeActivity(Object(stdClass), Object(ProfileController), Object(Gdn_Session))
+#6 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/index.php(4): include('/home/jdmf9z4zr...')
+#7 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/profile/activity.php(24): include('/home/jdmf9z4zr...')
+#8 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(782): include('/home/jdmf9z4zr...')
+#9 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/profile/index.php(7): Gdn_Controller->fetchView('Activity', 'Profile', 'Dashboard')
+#10 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(782): include('/home/jdmf9z4zr...')
+#11 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(1386): Gdn_Controller->fetchView('', false, false)
+#12 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.pluggable.php(217): Gdn_Controller->xRender()
+#13 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/controllers/class.profilecontroller.php(181): Gdn_Pluggable->__call('render', Array)
+#14 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/controllers/class.profilecontroller.php(554): ProfileController->activity('admin', 'admin', '2', false)
+#15 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(872): ProfileController->index('admin', '', '', false)
+#16 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(289): Gdn_Dispatcher->dispatchController(Object(Gdn_Request), Array)
+#17 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/index.php(29): Gdn_Dispatcher->dispatch()
+#18 {main} in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php on line 229
+[03-Jul-2020 19:40:06 UTC] PHP Warning:  Bad input encountered|Vanilla\Formatting\Formats\RichFormat|Vanilla\Formatting\Formats\RichFormat::logBadInput|Vanilla\Formatting\Exception\FormattingException: JSON could not be converted into quill operations.
+ коралловая вода что это такое емайл https://ru.coral-club.com/shop/products/2201.html?REF_CODE=546923435152 in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Quill/Parser.php:160
+Stack trace:
+#0 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php(63): Vanilla\Formatting\Quill\Parser::jsonToOperations('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#1 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/FormatService.php(34): Vanilla\Formatting\Formats\RichFormat->renderHTML('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#2 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(1456): Vanilla\Formatting\FormatService->renderHTML('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'rich')
+#3 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(1227): Gdn_Format::rich('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#4 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/helper_functions.php(27): Gdn_Format::to('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'Rich')
+#5 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/activities.php(16): writeActivity(Object(stdClass), Object(ActivityController), Object(Gdn_Session))
+#6 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/all.php(29): include('/home/jdmf9z4zr...')
+#7 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(782): include('/home/jdmf9z4zr...')
+#8 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(1386): Gdn_Controller->fetchView('', false, false)
+#9 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.pluggable.php(217): Gdn_Controller->xRender()
+#10 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/controllers/class.activitycontroller.php(158): Gdn_Pluggable->__call('render', Array)
+#11 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(872): ActivityController->index('public', false)
+#12 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(289): Gdn_Dispatcher->dispatchController(Object(Gdn_Request), Array)
+#13 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/index.php(29): Gdn_Dispatcher->dispatch()
+#14 {main} in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php on line 229
+[08-Jul-2020 02:19:36 UTC] PHP Warning:  Bad input encountered|Vanilla\Formatting\Formats\RichFormat|Vanilla\Formatting\Formats\RichFormat::logBadInput|Vanilla\Formatting\Exception\FormattingException: JSON could not be converted into quill operations.
+ коралловая вода что это такое емайл https://ru.coral-club.com/shop/products/2201.html?REF_CODE=546923435152 in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Quill/Parser.php:160
+Stack trace:
+#0 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php(63): Vanilla\Formatting\Quill\Parser::jsonToOperations('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#1 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/FormatService.php(34): Vanilla\Formatting\Formats\RichFormat->renderHTML('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#2 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(1456): Vanilla\Formatting\FormatService->renderHTML('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'rich')
+#3 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(1227): Gdn_Format::rich('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#4 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/helper_functions.php(27): Gdn_Format::to('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'Rich')
+#5 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/activities.php(16): writeActivity(Object(stdClass), Object(ActivityController), Object(Gdn_Session))
+#6 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/all.php(29): include('/home/jdmf9z4zr...')
+#7 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(782): include('/home/jdmf9z4zr...')
+#8 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(1386): Gdn_Controller->fetchView('', false, false)
+#9 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.pluggable.php(217): Gdn_Controller->xRender()
+#10 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/controllers/class.activitycontroller.php(158): Gdn_Pluggable->__call('render', Array)
+#11 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(872): ActivityController->index('public', false)
+#12 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(289): Gdn_Dispatcher->dispatchController(Object(Gdn_Request), Array)
+#13 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/index.php(29): Gdn_Dispatcher->dispatch()
+#14 {main} in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php on line 229
+[08-Jul-2020 07:34:43 UTC] PHP Warning:  Bad input encountered|Vanilla\Formatting\Formats\RichFormat|Vanilla\Formatting\Formats\RichFormat::logBadInput|Vanilla\Formatting\Exception\FormattingException: JSON could not be converted into quill operations.
+ коралловая вода что это такое емайл https://ru.coral-club.com/shop/products/2201.html?REF_CODE=546923435152 in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Quill/Parser.php:160
+Stack trace:
+#0 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php(63): Vanilla\Formatting\Quill\Parser::jsonToOperations('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#1 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/FormatService.php(34): Vanilla\Formatting\Formats\RichFormat->renderHTML('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#2 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(1456): Vanilla\Formatting\FormatService->renderHTML('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'rich')
+#3 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(1227): Gdn_Format::rich('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#4 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/helper_functions.php(27): Gdn_Format::to('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'Rich')
+#5 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/activities.php(16): writeActivity(Object(stdClass), Object(ProfileController), Object(Gdn_Session))
+#6 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/index.php(4): include('/home/jdmf9z4zr...')
+#7 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/profile/activity.php(24): include('/home/jdmf9z4zr...')
+#8 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(782): include('/home/jdmf9z4zr...')
+#9 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/profile/index.php(7): Gdn_Controller->fetchView('Activity', 'Profile', 'Dashboard')
+#10 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(782): include('/home/jdmf9z4zr...')
+#11 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(1386): Gdn_Controller->fetchView('', false, false)
+#12 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.pluggable.php(217): Gdn_Controller->xRender()
+#13 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/controllers/class.profilecontroller.php(181): Gdn_Pluggable->__call('render', Array)
+#14 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/controllers/class.profilecontroller.php(554): ProfileController->activity('admin', 'admin', '2', false)
+#15 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(872): ProfileController->index('admin', '', '', false)
+#16 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(289): Gdn_Dispatcher->dispatchController(Object(Gdn_Request), Array)
+#17 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/index.php(29): Gdn_Dispatcher->dispatch()
+#18 {main} in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php on line 229
+[09-Jul-2020 00:21:54 UTC] PHP Warning:  Bad input encountered|Vanilla\Formatting\Formats\RichFormat|Vanilla\Formatting\Formats\RichFormat::logBadInput|Vanilla\Formatting\Exception\FormattingException: JSON could not be converted into quill operations.
+ коралловая вода что это такое емайл https://ru.coral-club.com/shop/products/2201.html?REF_CODE=546923435152 in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Quill/Parser.php:160
+Stack trace:
+#0 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php(63): Vanilla\Formatting\Quill\Parser::jsonToOperations('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#1 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/FormatService.php(34): Vanilla\Formatting\Formats\RichFormat->renderHTML('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#2 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(1456): Vanilla\Formatting\FormatService->renderHTML('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'rich')
+#3 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(1227): Gdn_Format::rich('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#4 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/helper_functions.php(27): Gdn_Format::to('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'Rich')
+#5 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/activities.php(16): writeActivity(Object(stdClass), Object(ActivityController), Object(Gdn_Session))
+#6 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/all.php(29): include('/home/jdmf9z4zr...')
+#7 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(782): include('/home/jdmf9z4zr...')
+#8 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(1386): Gdn_Controller->fetchView('', false, false)
+#9 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.pluggable.php(217): Gdn_Controller->xRender()
+#10 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/controllers/class.activitycontroller.php(158): Gdn_Pluggable->__call('render', Array)
+#11 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(872): ActivityController->index('public', false)
+#12 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(289): Gdn_Dispatcher->dispatchController(Object(Gdn_Request), Array)
+#13 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/index.php(29): Gdn_Dispatcher->dispatch()
+#14 {main} in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php on line 229
+[09-Jul-2020 09:21:34 UTC] PHP Fatal error:  Uncaught Exception: An error occurred while attempting to connect to the database|Gdn_Database|Connection|SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/database/class.database.php:172
+Stack trace:
+#0 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/database/class.database.php(102): Gdn_Database->newPDO('host=localhost;...', 'i6656385_vf1', 'W.526D5r3tHcvk3...')
+#1 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/database/class.database.php(580): Gdn_Database->connection()
+#2 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/database/class.database.php(363): Gdn_Database->slave()
+#3 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/database/class.sqldriver.php(1707): Gdn_Database->query('select *\nfrom `...', Array, Array)
+#4 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/database/class.sqldriver.php(934): Gdn_SQLDriver->query('select *\nfrom `...')
+#5 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/models/class.rolemodel.php(231): Gdn_SQLDriver->getWhere('UserRole', Array)
+#6 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/models/class.permissionmodel.php(523): RoleModel::getDefaultRoles('guest')
+#7 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/models/class.usermodel.php(5057): PermissionModel->cachePermissions(0)
+#8 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.session.php(499): UserModel->getPermissions(0)
+#9 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.auth.php(64): Gdn_Session->start(false, false)
+#10 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/bootstrap.php(517): Gdn_Auth->startAuthenticator()
+#11 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/index.php(22): require_once('/home/jdmf9z4zr...')
+#12 {main}
+  thrown in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/database/class.database.php on line 172
+[09-Jul-2020 09:21:51 UTC] PHP Fatal error:  Uncaught Exception: An error occurred while attempting to connect to the database|Gdn_Database|Connection|SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/database/class.database.php:172
+Stack trace:
+#0 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/database/class.database.php(102): Gdn_Database->newPDO('host=localhost;...', 'i6656385_vf1', 'W.526D5r3tHcvk3...')
+#1 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/database/class.database.php(580): Gdn_Database->connection()
+#2 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/database/class.database.php(363): Gdn_Database->slave()
+#3 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/database/class.sqldriver.php(1707): Gdn_Database->query('select *\nfrom `...', Array, Array)
+#4 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/database/class.sqldriver.php(934): Gdn_SQLDriver->query('select *\nfrom `...')
+#5 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/models/class.rolemodel.php(231): Gdn_SQLDriver->getWhere('UserRole', Array)
+#6 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/models/class.permissionmodel.php(523): RoleModel::getDefaultRoles('guest')
+#7 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/models/class.usermodel.php(5057): PermissionModel->cachePermissions(0)
+#8 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.session.php(499): UserModel->getPermissions(0)
+#9 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.auth.php(64): Gdn_Session->start(false, false)
+#10 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/bootstrap.php(517): Gdn_Auth->startAuthenticator()
+#11 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/index.php(22): require_once('/home/jdmf9z4zr...')
+#12 {main}
+  thrown in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/database/class.database.php on line 172
+[10-Jul-2020 09:02:46 UTC] PHP Warning:  Bad input encountered|Vanilla\Formatting\Formats\RichFormat|Vanilla\Formatting\Formats\RichFormat::logBadInput|Vanilla\Formatting\Exception\FormattingException: JSON could not be converted into quill operations.
+ коралловая вода что это такое емайл https://ru.coral-club.com/shop/products/2201.html?REF_CODE=546923435152 in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Quill/Parser.php:160
+Stack trace:
+#0 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php(63): Vanilla\Formatting\Quill\Parser::jsonToOperations('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#1 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/FormatService.php(34): Vanilla\Formatting\Formats\RichFormat->renderHTML('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#2 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(1456): Vanilla\Formatting\FormatService->renderHTML('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'rich')
+#3 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(1227): Gdn_Format::rich('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#4 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/helper_functions.php(27): Gdn_Format::to('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'Rich')
+#5 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/activities.php(16): writeActivity(Object(stdClass), Object(ProfileController), Object(Gdn_Session))
+#6 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/index.php(4): include('/home/jdmf9z4zr...')
+#7 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/profile/activity.php(24): include('/home/jdmf9z4zr...')
+#8 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(782): include('/home/jdmf9z4zr...')
+#9 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/profile/index.php(7): Gdn_Controller->fetchView('Activity', 'Profile', 'Dashboard')
+#10 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(782): include('/home/jdmf9z4zr...')
+#11 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(1386): Gdn_Controller->fetchView('', false, false)
+#12 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.pluggable.php(217): Gdn_Controller->xRender()
+#13 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/controllers/class.profilecontroller.php(181): Gdn_Pluggable->__call('render', Array)
+#14 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/controllers/class.profilecontroller.php(554): ProfileController->activity('admin', 'admin', '2', false)
+#15 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(872): ProfileController->index('admin', '', '', false)
+#16 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(289): Gdn_Dispatcher->dispatchController(Object(Gdn_Request), Array)
+#17 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/index.php(29): Gdn_Dispatcher->dispatch()
+#18 {main} in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php on line 229
+[10-Jul-2020 15:00:23 UTC] PHP Warning:  Bad input encountered|Vanilla\Formatting\Formats\RichFormat|Vanilla\Formatting\Formats\RichFormat::logBadInput|Vanilla\Formatting\Exception\FormattingException: JSON could not be converted into quill operations.
+ коралловая вода что это такое емайл https://ru.coral-club.com/shop/products/2201.html?REF_CODE=546923435152 in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Quill/Parser.php:160
+Stack trace:
+#0 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php(63): Vanilla\Formatting\Quill\Parser::jsonToOperations('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#1 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/FormatService.php(34): Vanilla\Formatting\Formats\RichFormat->renderHTML('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#2 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(1456): Vanilla\Formatting\FormatService->renderHTML('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'rich')
+#3 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(1227): Gdn_Format::rich('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#4 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/helper_functions.php(27): Gdn_Format::to('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'Rich')
+#5 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/activities.php(16): writeActivity(Object(stdClass), Object(ProfileController), Object(Gdn_Session))
+#6 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/index.php(4): include('/home/jdmf9z4zr...')
+#7 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/profile/activity.php(24): include('/home/jdmf9z4zr...')
+#8 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(782): include('/home/jdmf9z4zr...')
+#9 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/profile/index.php(7): Gdn_Controller->fetchView('Activity', 'Profile', 'Dashboard')
+#10 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(782): include('/home/jdmf9z4zr...')
+#11 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(1386): Gdn_Controller->fetchView('', false, false)
+#12 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.pluggable.php(217): Gdn_Controller->xRender()
+#13 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/controllers/class.profilecontroller.php(181): Gdn_Pluggable->__call('render', Array)
+#14 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/controllers/class.profilecontroller.php(554): ProfileController->activity('admin', 'admin', '2', false)
+#15 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(872): ProfileController->index('admin', '', '', false)
+#16 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(289): Gdn_Dispatcher->dispatchController(Object(Gdn_Request), Array)
+#17 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/index.php(29): Gdn_Dispatcher->dispatch()
+#18 {main} in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php on line 229
+[10-Jul-2020 15:00:29 UTC] PHP Warning:  Bad input encountered|Vanilla\Formatting\Formats\RichFormat|Vanilla\Formatting\Formats\RichFormat::logBadInput|Vanilla\Formatting\Exception\FormattingException: JSON could not be converted into quill operations.
+ коралловая вода что это такое емайл https://ru.coral-club.com/shop/products/2201.html?REF_CODE=546923435152 in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Quill/Parser.php:160
+Stack trace:
+#0 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php(63): Vanilla\Formatting\Quill\Parser::jsonToOperations('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#1 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/FormatService.php(34): Vanilla\Formatting\Formats\RichFormat->renderHTML('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#2 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(1456): Vanilla\Formatting\FormatService->renderHTML('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'rich')
+#3 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(1227): Gdn_Format::rich('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#4 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/helper_functions.php(27): Gdn_Format::to('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'Rich')
+#5 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/activities.php(16): writeActivity(Object(stdClass), Object(ActivityController), Object(Gdn_Session))
+#6 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/all.php(29): include('/home/jdmf9z4zr...')
+#7 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(782): include('/home/jdmf9z4zr...')
+#8 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(1386): Gdn_Controller->fetchView('', false, false)
+#9 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.pluggable.php(217): Gdn_Controller->xRender()
+#10 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/controllers/class.activitycontroller.php(158): Gdn_Pluggable->__call('render', Array)
+#11 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(872): ActivityController->index('public', false)
+#12 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(289): Gdn_Dispatcher->dispatchController(Object(Gdn_Request), Array)
+#13 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/index.php(29): Gdn_Dispatcher->dispatch()
+#14 {main} in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php on line 229
+[11-Jul-2020 04:04:02 UTC] PHP Warning:  Bad input encountered|Vanilla\Formatting\Formats\RichFormat|Vanilla\Formatting\Formats\RichFormat::logBadInput|Vanilla\Formatting\Exception\FormattingException: JSON could not be converted into quill operations.
+ коралловая вода что это такое емайл https://ru.coral-club.com/shop/products/2201.html?REF_CODE=546923435152 in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Quill/Parser.php:160
+Stack trace:
+#0 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php(63): Vanilla\Formatting\Quill\Parser::jsonToOperations('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#1 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/FormatService.php(34): Vanilla\Formatting\Formats\RichFormat->renderHTML('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#2 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(1456): Vanilla\Formatting\FormatService->renderHTML('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'rich')
+#3 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.format.php(1227): Gdn_Format::rich('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...')
+#4 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/helper_functions.php(27): Gdn_Format::to('\xD0\xBA\xD0\xBE\xD1\x80\xD0\xB0\xD0\xBB\xD0\xBB\xD0\xBE\xD0...', 'Rich')
+#5 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/activities.php(16): writeActivity(Object(stdClass), Object(ProfileController), Object(Gdn_Session))
+#6 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/activity/index.php(4): include('/home/jdmf9z4zr...')
+#7 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/profile/activity.php(24): include('/home/jdmf9z4zr...')
+#8 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(782): include('/home/jdmf9z4zr...')
+#9 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/views/profile/index.php(7): Gdn_Controller->fetchView('Activity', 'Profile', 'Dashboard')
+#10 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(782): include('/home/jdmf9z4zr...')
+#11 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.controller.php(1386): Gdn_Controller->fetchView('', false, false)
+#12 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.pluggable.php(217): Gdn_Controller->xRender()
+#13 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/controllers/class.profilecontroller.php(181): Gdn_Pluggable->__call('render', Array)
+#14 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/applications/dashboard/controllers/class.profilecontroller.php(554): ProfileController->activity('admin', 'admin', '2', false)
+#15 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(872): ProfileController->index('admin', '', '', false)
+#16 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/core/class.dispatcher.php(289): Gdn_Dispatcher->dispatchController(Object(Gdn_Request), Array)
+#17 /home/jdmf9z4zrge5/public_html/forum.codetigers.org/index.php(29): Gdn_Dispatcher->dispatch()
+#18 {main} in /home/jdmf9z4zrge5/public_html/forum.codetigers.org/library/Vanilla/Formatting/Formats/RichFormat.php on line 229

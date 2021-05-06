@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Place Searches</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <meta charset="utf-8">
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  height: 500px;
+  margin: 10px auto;
+  width: 800px;
+}
+    </style>
+<script>
+    var map = null;
+    var markerArray = [];
+
+    function addPlaces(obj){  
+        $.each(obj, function(index, obj_){
+          console.log(obj_);
+          $("#hospital").append("<div><b>"+obj_["name"]+"</b><br>"+obj_["address"]+"</div><br><br><br>");
+        });
+      }
+      function initMap(){
+          var  kolkata= {lat: 22.567627, lng: 88.347444};
+      // The map, centered at Uluru
+        map = new google.maps.Map(
+          document.getElementById('map'), {zoom: 10, center: kolkata});
+      }
+      function clear()
+      {
+        for(var i=markerArray.length-1; i>=0; i--){
+          markerArray[i].setMap(null);
+          markerArray.pop();
+        }
+        $("#hospital").html("");
+      }
+      function plotMap(places){
+        
+        $.each(places, function(index,obj){
+          if(map != null){
+            markerArray.push(new google.maps.Marker({"position": obj["location"], map: map}));
+          }
+        });
+      }
+</script>
+  </head>
+  <body>
+
+   <div id="map" style="width:100%;height:400px;"></div>
+   <div id="hospital" style="width:100%;height:400px;"></div>
+ </body>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEHayH5dt_jzW-Y6lkIzBneMk769nxt7Y&callback=initMap">
+    </script>
+</html>

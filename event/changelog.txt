@@ -1,0 +1,12 @@
+Version: 2.1.0
+  - Renamed the sponsors section names to supporters. Adblockers are blocking images that contain string "sponsor" in them
+  - Added navigation active state on scroll for the main navigation
+  - Updated the jQuery and Venobox libraries to their latest versions
+
+Version: 2.0.0
+  - The template was rebuilt from scratch with the latest Bootstrap version (4.4.1)
+  - Added SMPTP support for the contact form script (Pro)
+  - Added NodeJS NPM Development version (Pro unlimited & Membership members)
+  
+Version: 1.0.0
+- Initial Release

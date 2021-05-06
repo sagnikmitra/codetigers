@@ -1,0 +1,21 @@
+{
+    "short_name": "DevFest Kolkata",
+    "name": "GDG DevFest Kolkata",
+    "icons": [
+      {
+        "src": "/assets/img/logos/logo-192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/assets/img/logos/logo.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/?utm_source=a2hs",
+    "background_color": "white",
+    "display": "standalone",
+    "scope": "/devfest/",
+    "theme_color": "white"
+  }

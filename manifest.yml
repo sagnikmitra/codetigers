@@ -1,0 +1,5 @@
+---
+applications:
+ - name: devfest
+   host: devfest
+   memory: 2048M

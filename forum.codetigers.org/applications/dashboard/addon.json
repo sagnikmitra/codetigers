@@ -1,0 +1,20 @@
+{
+    "description": "Handles user, role, permission, plugin, theme, and application management.",
+    "allowDisable": false,
+    "url": "https://open.vanillaforums.com",
+    "license": "GPL-2.0-only",
+    "priority": 5,
+    "hidden": true,
+    "icon": "dashboard.png",
+    "key": "dashboard",
+    "type": "addon",
+    "name": "Dashboard",
+    "authors": [
+        {
+            "name": "Vanilla Staff",
+            "email": "support@vanillaforums.com",
+            "homepage": "https://open.vanillaforums.com"
+        }
+    ],
+    "version": "3.0"
+}
